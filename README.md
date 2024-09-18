@@ -1,22 +1,46 @@
-# Génération-de-model-3D-par-API-MESHY.IA
-Ici tu trouvera le contenue des projets utilisant l'API de Meshy.AI
-<br>
-Les différentes étapes d'utilisation
-<br>
-Faites un git clone du projet, une fois télécharger prennez le fichier python dans votre éditeur python favoris
-<br>
-Remplacé la 3ème ligne du fichier par votre propre token : 
-api_key = " " 
-(vous pouvez créer votre token https://www.meshy.ai/api)
-<br>
-Lancer le script depuis votre terminal ou votre IDE
-<br>
-Dans le terminal entrée votre requête, par exemple "Black Bear"
-<br>
-Une fois finis cela devrais vous télécharger par défaut dans votre répertoire Téléchargement ou sinon dans votre terminal observé la ligne suivante :
-{'id': '0191dc0c-8547-76d5-aca5-90c915d87e1f', 'mode': 'preview', 'name': '', 'seed': 1725973693, 'art_style': 'realistic', 'texture_richness': '', 'prompt': 'Black bear', 'negative_prompt': 'low quality, low resolution, low poly, ugly', 'status': 'SUCCEEDED', 'created_at': 1725973694611, 'progress': 100, 'started_at': 1725973740876, 'finished_at': 1725973827787, 'task_error': None, 'model_urls': {'glb': 'https://assets.meshy.ai/09303484-d463-41df-b804-8a2ee2a9ef49/tasks/0191dc0c-8547-76d5-aca5-
+# Génération de modèles 3D via l'API Meshy.AI
 
-<br>
-Vous avez un endroit ou est stocké un url de téléchargment, double cliqué dessus et le travails est fait (:
+Bienvenue dans ce projet utilisant l'API de Meshy.AI pour générer des modèles 3D à partir de requêtes textuelles. Ce projet vous guide à travers les différentes étapes pour utiliser efficacement l'API et générer vos propres modèles 3D.
 
+N'hésiter pas à aller voir la vidéo sur youtube pour voir chaque étapes détaillés : [Lien youtube](https://www.youtube.com/watch?v=QNS74m1X0Zo&list=PLwxzgoKfBuLGemfvDMs5gaMvlRMwTXmYc&index=9&ab_channel=CodeRedempteur)
 
+## 🎥 Introduction à Meshy.AI
+
+Découvrez comment utiliser l'API Meshy.AI pour générer des modèles 3D de manière simple et rapide. Pour en savoir plus sur son fonctionnement, consultez la documentation officielle de [Meshy.AI](https://www.meshy.ai/api).
+
+## 🚀 Comment utiliser ce projet ?
+
+1. **Clonez le dépôt** : `git clone https://github.com/votre-utilisateur/mesh-ai-3d-project.git`
+2. **Ouvrez le fichier Python** : Téléchargez le fichier Python dans votre éditeur préféré (Visual Studio Code, PyCharm, etc.).
+3. **Ajoutez votre clé API** : Remplacez la 3ème ligne du fichier par votre propre token d'API :
+
+    ```python
+    api_key = "votre_token"
+    ```
+    > Vous pouvez obtenir votre clé d'API en suivant [ce lien](https://www.meshy.ai/api).
+
+4. **Lancez le script** : Exécutez le script depuis votre terminal ou IDE préféré.
+
+5. **Entrez votre requête** : Dans le terminal, entrez une requête de modèle, par exemple `"Black Bear"`. 
+
+6. **Téléchargement du modèle** : Une fois le modèle généré, il sera automatiquement téléchargé dans votre répertoire par défaut (généralement Téléchargements) ou vous verrez l'URL de téléchargement dans le terminal sous ce format :
+
+    ```json
+    {'model_urls': {'glb': 'https://assets.meshy.ai/...'}}
+    ```
+    Vous pouvez alors cliquer sur le lien pour télécharger le fichier `.glb` du modèle.
+
+## 📜 Licence et conditions d'utilisation
+
+Ce projet est sous licence [MIT](LICENSE). Vous êtes libre de l'utiliser, de le modifier et de le distribuer, à condition de respecter les termes de la licence.
+
+> **Note** : Ce projet est **maintenu**. N'hésitez pas à contribuer en soumettant des pull requests ou des issues pour améliorer le projet.
+
+## ☕️ Supportez le projet
+
+Si ce projet vous a été utile, vous pouvez me soutenir via les plateformes suivantes :
+
+- [Patreon](https://www.patreon.com/coderedempteur/membership)
+- [Buy Me a Coffee](https://buymeacoffee.com/coderredemy)
+
+Merci pour votre soutien et bon développement 3D avec Meshy.AI ! 🖼️
