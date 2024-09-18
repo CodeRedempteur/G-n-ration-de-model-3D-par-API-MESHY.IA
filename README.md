@@ -34,7 +34,7 @@ Découvrez comment utiliser l'API Meshy.AI pour générer des modèles 3D de man
 
 Ce projet est sous licence [MIT](LICENSE). Vous êtes libre de l'utiliser, de le modifier et de le distribuer, à condition de respecter les termes de la licence.
 
-> **Note** : Ce projet est **maintenu**. N'hésitez pas à contribuer en soumettant des pull requests ou des issues pour améliorer le projet.
+> **Note** : Ce projet est actuellement **maintenu** et les contributions sont les bienvenues sur le discord officiel : [Discord](https://discord.gg/JR3ENr5Db5)
 
 ## ☕️ Supportez le projet
 
